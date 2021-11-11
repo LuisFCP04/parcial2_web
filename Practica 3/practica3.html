@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de cliente</title>
+</head>
+<body>
+    <h1>Formulario de registro de clientes</h1><hr>
+    <label for="Nombre">Nomre del cliente:</label><br>
+    <form method="GET" action="practica3.php">
+    <input type="text" name="nombre" placeholder="Introduzca un nombre de cliente" required><br><br>
+
+    <label for="Edad">Edad:</label><br>
+    <input type="number" name="Edad" placeholder="Edad" required><br><br>
+
+    <label for="Correo">Correo electrónico:</label><br>
+    <input type="email" name="correo" placeholder="Correo electrónico" required><br><br>
+
+    <label for="Fecha_N">Fecha de nacimiento:</label><br>
+    <input type="date" name="Fecha_N" required><br><br>
+
+    <label for="Sexo">Sexo:</label><br>
+    Masculino:<input type="radio" name="sexo" value="Masculino"> <br>
+    Femenino:<input type="radio" name="sexo" value="Femenino"> <br><br>
+
+    <label for="A_interes">Areas de interés:</label><br>
+    <input type="checkbox" name="areas[]" value="Tecnologia"> Tecnología <br>
+    <input type="checkbox" name="areas[]" value="Muebles"> Muebles <br>
+    <input type="checkbox" name="areas[]" value="Belleza"> Belleza <br>
+    <input type="checkbox" name="areas[]" value="Ropa"> Ropa <br>
+    <input type="checkbox" name="areas[]" value="Auto"> Automóviles <br><br>
+
+    <input type="submit" value="Enviar">
+
+    </form>
+
+    <h2>Nombre: Luis Fernando Cruz Ponce</h2>
+</body>
+</html>
