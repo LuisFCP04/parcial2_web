@@ -1,0 +1,24 @@
+body{background-color: #A7F5E6; }
+
+
+ label{
+     font-family: Arial;
+     font-size: 70%;
+     font-weight: 700;
+ }
+
+  
+
+
+div{
+    background-color: white;
+    padding: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 28%;
+    margin-right: 20%;
+    border-radius: 40px;
+    width: fit-content;
+    
+    
+}
